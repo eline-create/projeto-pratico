@@ -1,0 +1,90 @@
+[
+    {
+     "id": 1,
+     "musica": "A Fazendinha",
+     "artista": "Mundo Bita",
+     "duracao": "2min14s",
+     "album": "Bita e os animais",
+     "genero": "Música Infantil"
+    },
+    {
+    "id": 2,
+    "musica": "Viajar pelo Safari",
+    "artista": "Mundo Bita",
+    "duracao": "3min02s",
+    "album": "Bita e os animais",
+    "genero": "Música Infantil"
+    },
+    {
+    "id": 3,
+    "musica": "Matemagicamente",
+    "artista": "Mundo Bita",
+    "duracao": "3min10s",
+    "album": "Bita e o nosso mundo",
+    "genero": "Música Infantil"
+    },
+    {
+    "id": 4,
+    "musica": "Palco de brinquedos",
+    "artista": "Mundo Bita",
+    "duracao": "3min19s",
+    "album": "Bita e o nosso mundo",
+    "genero": "Música Infantil"
+    },
+    {
+    "id": 5,
+    "musica": "AEIOU",
+    "artista": "Grupo Triii",
+    "duracao": "4min59s",
+    "album": "Grupo Triii",
+    "genero": "Música Infantil"
+    },
+    {
+    "id": 6,
+    "musica": "O tomate e o caqui",
+    "artista": "Grupo Triii",
+    "duracao": "3min52s",
+    "album": "Grupo Triii",
+    "genero": "Música Infantil"
+    },
+    {
+    "id": 7,
+    "musica": "Sopa",
+    "artista": "Palavra Cantada",
+    "duracao": "1min48s",
+    "album": "Canções de Brincar",
+    "genero": "Música Infantil"
+    },
+    {
+    "id": 8,
+    "musica": "Lavar as mãos",
+    "artista": "Palavra Cantada",
+    "duracao": "1min27s",
+    "album": "Palavra cantada",
+    "genero": "Música Infantil"
+    },
+    {
+    "id": 8,
+    "musica": "Rato",
+    "artista": "Palavra Cantada",
+    "duracao": "5min35s",
+    "album": "Palavra cantada",
+    "genero": "Música Infantil"
+    },
+    {
+    "id": 9,
+    "musica": "Pomar",
+    "artista": "Palavra Cantada",
+    "duracao": "3min04s",
+    "album": "Canções de Brincar",
+    "genero": "Música Infantil"
+    },
+    {
+    "id": 10,
+    "musica": "Tre lé lé",
+    "artista": "Grupo Triii",
+    "duracao": "4min35s",
+    "album": "Grupo Triii",
+    "genero": "Música Infantil"
+    }
+]
