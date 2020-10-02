@@ -5,12 +5,75 @@
 
 const musicas =  require ("../model/musicas.json");
 
+//Monstrando todo o JSON
+
 const getAll =  (req, res) => {
     console.log(req.url);
     res.status(200).send(musicas);
     
-}
+};
 
-module.exports = { getAll }
+//Por item
+
+//Passo a passo
+//1. Criar método
+//2. Retornar item daquele ID
+
+const getById = (req, res) => {
+    const id = req.params.id;
+
+    const musicaFiltrada = musicas.find((musica) => musica.id == id)
+
+    res.status(200).send(musicaFiltrada); 
+};
 
 
+//Filtrando por artista. Quais artista temos no JSON
+
+
+
+const getByArtista = (req, res) => {
+        const artistaFiltrado = musicas.map((musica) => musica.artista);
+        res.status(200).send(artistaFiltrado);
+    }
+
+ // Passo a passo
+
+ // 1. Pegar param da URL
+ // 2. Fazer filter no JSON
+ // 3. Retornar o musica - Método de comparação
+// OBS: Usando o map, retornará o resultado de true e false
+
+const getArtista = (req, res) => {
+        const artista = req.params.artista
+        const artistaFiltrado = musicas.filter((musica) => musica.artista == artista);
+        res.status(200).send(artistaFiltrado);
+    }
+
+
+// const getByArtista = (req, res) => {
+
+//     const artistas = req.params.artista;
+
+//     const artistaFiltrado = musicas.find((musica) => musica.artista == artistas);
+    
+//      res.status(200).send(artistaFiltrado);
+    
+//      }
+
+
+
+
+//Filtrando por album -  Usando o map
+
+// const getAllAlbuns = (req, res) => {
+//     const albunsFiltrado = albuns.map((album) => album.musicas);
+//     res.status(200).send(albunsFiltrado)
+
+
+
+
+
+module.exports = { 
+    getAll, getById, getByArtista, getArtista
+ }

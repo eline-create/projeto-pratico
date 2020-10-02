@@ -49,10 +49,10 @@
     },
     {
     "id": 7,
-    "musica": "Sopa",
-    "artista": "Palavra Cantada",
-    "duracao": "1min48s",
-    "album": "Canções de Brincar",
+    "musica": "Tre lé lé",
+    "artista": "Grupo Triii",
+    "duracao": "4min35s",
+    "album": "Grupo Triii",
     "genero": "Música Infantil"
     },
     {
@@ -81,10 +81,13 @@
     },
     {
     "id": 10,
-    "musica": "Tre lé lé",
-    "artista": "Grupo Triii",
-    "duracao": "4min35s",
-    "album": "Grupo Triii",
+    "musica": "Sopa",
+    "artista": "Palavra Cantada",
+    "duracao": "1min48s",
+    "album": "Canções de Brincar",
     "genero": "Música Infantil"
     }
 ]
+
+
+    

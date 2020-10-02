@@ -13,14 +13,15 @@ const musicas = require("./routes/musicasRoute");
 
 
 //Usar a rota criada
+app.use(express.static('public')); // para fazer a imagem do erro aparecer no browser
 
 app.use("/", musicas); //endpoint
+
 
 //Fazer um get para retornar erro
 
 app.get("*", (req, res) => {
     res.status(400).sendFile("./views/404.html", { root: __dirname})
 });
-
 
 module.exports = app;
