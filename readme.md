@@ -1,5 +1,11 @@
 <h1> Semana 08 -  Projeto Prático </h1>
 
+Este repositório faz parte de um conjunto de aulas semanais ministradas no curso de Desenvolvimento Web Back-End pela Reprograma em parceria com o Porto Digital/M.I.N.As.
+Nesta semana, um projeto envolvendo criação de um servidor e manipulação de um JSON foi criado. 
+Aqui observando o passo a passo desrito a seguir, é possível desenvolver este mesmo projeto com diversos temas e treinar/aprimorar uso do Node.JS, instalar alguns pacotes do NPM e codar em JavaScript.
+
+Caso queira fazer o download deste repositório e utilizar com exercício é só entrar no link [GitHub](https://github.com/eline-create/projeto-pratico) e fazer um clone para a sua máquina. O repositório está aberto.
+
 
 <h2> Vamos começar? </h2>
 
@@ -45,7 +51,7 @@ Após estes passos, já podemos fazer um primeiro teste com o servidor e averigu
 
 6. Vai lá no terminal e executa o comando nodemon server. Uma alternativa é usar o npm run nodemon.
 
-7. Foram disponibizados, 3 temas para execução do projeto prático. A execução correta segue algumas regras contratuais. são elas:
+7. Foram disponibizados, 3 temas (Jogos, séries e músicas) para execução do projeto prático. Aqui escolhi o tema música. A execução correta segue algumas regras contratuais. são elas:
 
 #### Contratos que deverão ser entregues
 
@@ -72,6 +78,9 @@ Após estes passos, já podemos fazer um primeiro teste com o servidor e averigu
 
 8. Para fazer filtragem, apenas os arquivos JSONController.js e JSONRoute.js que são modificados.
 
-9. Verificar se todos os contratos foram atendidos. Não esquecer de utilizar o postman.
+9. Verificar se todos os contratos foram atendidos. Não esquecer de utilizar o postman. Caso queria é possível instalar uma extensão no Google Chrome chamada JSON Viewer para visualizar o JSON todo organizado direto no browser.
 
 10. Subir o projeto para o gitHub e enviar link do repositório no GoogleClassroom.
+
+
+PALAVRAS-CHAVES: Reprograma, Porto Digital/MINAs, JavaScript, JSON, Node.js, NPM, GitHub.
