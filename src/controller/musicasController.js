@@ -30,8 +30,6 @@ const getById = (req, res) => {
 
 //Filtrando por artista. Quais artista temos no JSON
 
-
-
 const getByArtista = (req, res) => {
         const artistaFiltrado = musicas.map((musica) => musica.artista);
         res.status(200).send(artistaFiltrado);
@@ -46,34 +44,30 @@ const getByArtista = (req, res) => {
 
 const getArtista = (req, res) => {
         const artista = req.params.artista
-        const artistaFiltrado = musicas.filter((musica) => musica.artista == artista);
+        const artistaFiltrado = musicas.filter((musica) => musica.artista.toUpperCase() == artista.toUpperCase());
         res.status(200).send(artistaFiltrado);
-    }
-
-
-// const getByArtista = (req, res) => {
-
-//     const artistas = req.params.artista;
-
-//     const artistaFiltrado = musicas.find((musica) => musica.artista == artistas);
-    
-//      res.status(200).send(artistaFiltrado);
-    
-//      }
-
+    };
 
 
 
 //Filtrando por album -  Usando o map
 
-// const getAllAlbuns = (req, res) => {
-//     const albunsFiltrado = albuns.map((album) => album.musicas);
-//     res.status(200).send(albunsFiltrado)
+const getAllAlbuns = (req, res) => {
+    const albunsFiltrado = musicas.map((album) => album.musicas);
+    res.status(200).send(albunsFiltrado)
 
+};
+
+
+const getAlbum = (req, res) => {
+    const album = req.params.artista
+    const albumFiltrado = musicas.filter((musica) => musica.album.toUpperCase() == album.toUpperCase());
+    res.status(200).send(albumFiltrado);
+};
 
 
 
 
 module.exports = { 
-    getAll, getById, getByArtista, getArtista
- }
+    getAll, getById, getByArtista, getArtista, getAllAlbuns, getAlbum
+ };

@@ -10,9 +10,8 @@ const express = require('express');
 const route = express.Router();
 const controller = require('../controller/musicasController');
 
-//Filtrando as músicas
+//Exibindo todas as músicas
 
-route.get("/", controller.getAll);
 route.get("/musicas", controller.getAll);
 
 
@@ -22,13 +21,19 @@ route.get("/musicas/:id", controller.getById);
 
 
 //Extras
+
 // Filtrando por artista ()
 
-
-//route.get("/musicas/artista/:artista", controller.getByArtista)
+//route.get("/musicas/artista/:artista", controller.getByArtista) // Essa rota mostra um array com o nomedos artistas, pq usei o método .map
 
 route.get("/musicas/artista/:artista", controller.getArtista)
 
+
+// Filtrando por album
+
+route.get("/musicas/album/:album", controller.getAllAlbuns)
+
+//route.get("/musicas/album/:album", controller.getAlbum)
 
 
 module.exports = route;
