@@ -1,10 +1,24 @@
-<h1> Semana 08 -  Projeto Prático </h1>
+<h1> Projeto Prático </h1>
 
 Este repositório faz parte de um conjunto de aulas semanais ministradas no curso de Desenvolvimento Web Back-End pela Reprograma em parceria com o Porto Digital/M.I.N.As.
-Nesta semana, um projeto envolvendo criação de um servidor e manipulação de um JSON foi criado. 
-Aqui observando o passo a passo desrito a seguir, é possível desenvolver este mesmo projeto com diversos temas e treinar/aprimorar uso do Node.JS, instalar alguns pacotes do NPM e codar em JavaScript.
 
-Caso queira fazer o download deste repositório e utilizar com exercício é só entrar no link [GitHub](https://github.com/eline-create/projeto-pratico) e fazer um clone para a sua máquina. O repositório está aberto.
+Nesta semana (Semana 8/18), um projeto envolvendo criação de um servidor e manipulação de um JSON foi criado. 
+Aqui observando o passo a passo descrito, é possível desenvolver este mesmo projeto com diversos temas e treinar/aprimorar uso do Node.JS, instalar alguns pacotes do NPM e codar em JavaScript.
+
+Caso queira fazer o download deste repositório e utilizar com exercício é só entrar no link [GitHub](https://github.com/eline-create/projeto-pratico) e fazer um fork para a sua máquina. 
+
+Se você não sabe como funciona o fork ou quer saber mais, acessar esse [link](https://www.lambda3.com.br/2016/02/mantendo-um-fork-atualizado-no-github/), que também é um repositório do GitHub.
+
+Para ver a continuação desse projeto você pode acessar o repositório do Projeto Prático 2 no [GitHub](https://github.com/eline-create/projeto-pratico2).
+
+
+Para desenvolver este projeto, você precisa ter instalado em sua máquina:
+
+1. Visual Studio Code;
+2. Node.js;
+3. Git bash(terminal);
+
+Bibliotecas e dependências do node (Node-modules, Package.json, Nodemon, Express) foram utilizadas - Como este repositório já tem essas dependências instaladas você só precisa dá um NPM init -y no seu terminal, caso não funcione você pode seguir os passos de instalação e inicialização descritos mais à frente.
 
 
 <h2> Vamos começar? </h2>
