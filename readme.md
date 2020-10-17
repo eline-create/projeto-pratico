@@ -45,7 +45,7 @@ Faça os seguintes comandos:
 
 - npm install -y (package-lock.JSON);
 - npm init -y (package.JSON);
-- npm i --save -dev express (node modules);
+- npm i --save -dev express (express);
 - npm i --save -dev nodemon (nodemon).
 
 4. Não esqueça de criar um arquivo .gitIgnore para o node_modules não subir para o repositório gitHub. Caso o .gitIgnore não funcione, siga os seguinte passos:
